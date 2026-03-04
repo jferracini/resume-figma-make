@@ -1,8 +1,13 @@
+// @ts-nocheck
 import { defineConfig } from 'vite'
-import path from 'path'
-import fs from 'fs'
+import path from 'node:path'
+import fs from 'node:fs'
+import { fileURLToPath } from 'node:url'
 import tailwindcss from '@tailwindcss/vite'
 import react from '@vitejs/plugin-react'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
 // Plugin to resolve figma:asset/ imports to local files in public/assets/
 // Maps Figma hash filenames → human-readable names in public/assets/
