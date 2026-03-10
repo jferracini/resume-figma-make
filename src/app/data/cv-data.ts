@@ -66,7 +66,7 @@ const cvData: CVData = {
   personal: {
     firstName: "Julio",
     lastName: "Ferracini",
-    role: "Staff Product Designer",
+    role: "Staff Product Design",
     website: "https://julioferracini.net",
     websiteLabel: "julioferracini.net",
     linkedin: "https://www.linkedin.com/in/julioferracini/",
@@ -76,7 +76,7 @@ const cvData: CVData = {
   },
 
   summary:
-    "Staff Product Designer with 15+ years of experience leading end-to-end product design, design systems, and AI-driven solutions in fintech and platform products. Strong background in product strategy, cross-functional leadership, discovery, experimentation, and scaling design maturity across large organizations in LATAM.",
+    "Designer with 15+ years of experience leading end-to-end product design, design systems, and AI-driven solutions in fintech and platform products. Strong background in product strategy, cross-functional leadership, discovery, experimentation, and scaling design maturity across large organizations in LATAM.",
 
   experience: [
     {
@@ -181,7 +181,6 @@ const cvData: CVData = {
         "Webflow",
         "Framer",
         "Wordpress",
-        "Sketch",
         "HTML/CSS & JavaScript",
       ],
     },
