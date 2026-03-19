@@ -11,6 +11,8 @@ import { Toaster } from "sonner";
 import cvData from "./data/cv-data";
 import { motion, useAnimationControls } from "motion/react";
 import { useState, useCallback } from "react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+
 
 function CVLayout() {
   const controls = useAnimationControls();
